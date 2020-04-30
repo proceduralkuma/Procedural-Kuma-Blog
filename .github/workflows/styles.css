@@ -1,0 +1,103 @@
+html{
+    background: url("images/background.jpeg") no-repeat center center  fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+a visited {
+    color: white;
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+}
+
+#logo img {
+    width: 150px;
+    height: 100px;
+    float:left;
+}
+
+#nav-buttons {
+    text-align: center;
+    position: absolute;
+    width: 1300px;
+    height: 30px;
+}
+
+#right-nav-buttons {
+    text-align: right;
+    margin-left: 1100px;
+    margin-top: 50px;
+
+}
+
+.Nav-button {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Nav-button-right {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#slogan {
+    color: white;
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(100, 98, 98);
+    color: white;
+    padding: 10px 24px 10px 24px;
+    max-width: 30px;
+    border: 1px transparent;
+}
+
+#bottom-nav-bar {
+    position: absolute;
+    bottom: 0;
+    width: 1300px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+
+#footer-nav {
+    display: inline-flex;
+    color: white;
+   
+}
+
+.foot {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.flag {
+    width: 25px;
+    height: 25px;
+}
